@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang = "pt-BR" >
+    <head >
+        <meta charset = "utf-8" />
+        <title> Calculadora</title >
+        <style>
+        p{
+            text-align:center;
+        }
+        h2{
+            text-align:center;
+        }
+        </style>
+    </head >
+    <body >
+        <fieldset>
+           <p>Calculadora<p>
+        </fieldset>
+       
+                <form action="resultado.php" method="post">
+                        <fieldset>
+                            <legend>Faça a sua conta</legend>
+                            <p>
+                                <label>Número 1:</label>
+                                <input type="text" name="n1" size="30"/>
+                            </p>
+                            <p>
+                                <label>Operador:</label>
+                                <select name="operador">
+                                    <option value = "add" >+</option >
+                                    <option value = "sub" >-</option >
+                                    <option value = "mult" >x</option >
+                                    <option value = "div" >/</option >
+                                </select>
+                            
+                            </p>
+                            <p>
+                                <label>Número 2:</label>
+                                <input type="text" name="n2" size="30"/>
+                            </p> 
+                            
+                            <p>
+                            <input type="submit" value="Enviar"/>
+                        </p>
+                             
+
+          
+</body>
+</html>
